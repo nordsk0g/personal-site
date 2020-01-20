@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ignored web banners
+src/web banner fade 2.svg
+src/web banner fade.svg
+src/web banner purple.svg
+src/web banner.svg
