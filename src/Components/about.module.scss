@@ -55,8 +55,7 @@
   //   "javascript react"
   //   "node photoshop"
   //   "illustrator .";
-  grid-gap: 1rem;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   overflow: hidden;
   margin-top: 2rem;
@@ -64,39 +63,40 @@
 
 .logo {
   width: 125px;
+  margin: 0.8rem;
 }
 
-.html {
-  grid-area: html;
-  margin: auto;
-}
+// .html {
+//   grid-area: html;
+//   margin: auto;
+// }
 
-.css {
-  margin: auto;
-  grid-area: css;
-}
+// .css {
+//   margin: auto;
+//   grid-area: css;
+// }
 
-.javascript {
-  margin: auto;
-  grid-area: javascript;
-}
+// .javascript {
+//   margin: auto;
+//   grid-area: javascript;
+// }
 
-.react {
-  margin: auto;
-  grid-area: react;
-}
+// .react {
+//   margin: auto;
+//   grid-area: react;
+// }
 
-.node {
-  margin: auto;
-  grid-area: node;
-}
+// .node {
+//   margin: auto;
+//   grid-area: node;
+// }
 
-.photoshop {
-  margin: auto;
-  grid-area: photoshop;
-}
+// .photoshop {
+//   margin: auto;
+//   grid-area: photoshop;
+// }
 
-.illustrator {
-  margin: auto;
-  grid-area: illustrator;
-}
+// .illustrator {
+//   margin: auto;
+//   grid-area: illustrator;
+// }
