@@ -4,12 +4,15 @@
   align-items: center;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(4, 1fr);
+  grid-gap: 5rem;
   height: 100vh;
   width: 100%;
 }
 
 .about {
   margin-top: 79px;
+  height: 640px;
+  width: 580px;
   background-color: #fff;
   padding: 6rem 4rem;
   grid-column: 2 / span 2;
@@ -20,4 +23,80 @@
   border-radius: 0.5rem;
   box-shadow: 0 5px 10px rgba(9, 25, 90, 0.05),
     0 15px 40px rgba(11, 28, 93, 0.2);
+}
+
+.technologies {
+  margin-top: 79px;
+  height: 640px;
+  width: 580px;
+  background-color: #fff;
+  padding: 3rem 4rem 0 4rem;
+  grid-column: 4 / span 2;
+  grid-row: 2 / span 2;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 10px rgba(9, 25, 90, 0.05),
+    0 15px 40px rgba(11, 28, 93, 0.2);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  // display: grid;
+  // grid-template-columns: auto;
+  // grid-template-rows: auto;
+  // grid-template-areas:
+  //   "html css"
+  //   "javascript react"
+  //   "node photoshop"
+  //   "illustrator .";
+  grid-gap: 1rem;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.logo {
+  width: 125px;
+}
+
+.html {
+  grid-area: html;
+  margin: auto;
+}
+
+.css {
+  margin: auto;
+  grid-area: css;
+}
+
+.javascript {
+  margin: auto;
+  grid-area: javascript;
+}
+
+.react {
+  margin: auto;
+  grid-area: react;
+}
+
+.node {
+  margin: auto;
+  grid-area: node;
+}
+
+.photoshop {
+  margin: auto;
+  grid-area: photoshop;
+}
+
+.illustrator {
+  margin: auto;
+  grid-area: illustrator;
 }
