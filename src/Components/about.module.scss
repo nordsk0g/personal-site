@@ -65,7 +65,7 @@
 }
 
 // Mobiles
-@media screen and (max-width: 375px) {
+@media (max-width: 414px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -91,6 +91,7 @@
       line-height: 1.5rem;
 
       .logos {
+        margin-top: 1rem;
         .logo {
           width: 50px;
         }
@@ -100,7 +101,7 @@
 }
 
 // Tablets
-@media screen and (min-width: 376px) and (max-width: 1024px) {
+@media (min-width: 415px) and (max-width: 1750px) {
   .container {
     display: flex;
     flex-direction: column;

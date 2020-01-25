@@ -8,7 +8,6 @@ const Projects = () => {
   return (
     <div id="projects" className={projectsStyles.container}>
       <a
-        className={projectsStyles.cardLink}
         href="https://nordsk0g.github.io/todo-list-app/"
         target="_blank"
         rel="noopener noreferrer"
@@ -23,7 +22,6 @@ const Projects = () => {
         </div>
       </a>
       <a
-        className={projectsStyles.cardLink}
         href="https://nordsk0g.github.io/sorting-visualiser/"
         target="_blank"
         rel="noopener noreferrer"

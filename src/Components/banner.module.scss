@@ -17,7 +17,6 @@
   text-shadow: 0 5px 10px rgba(9, 25, 90, 0.4),
     0 15px 40px rgba(11, 28, 93, 0.4);
   h1 {
-    // margin: 400px 0 25px 0;
     font-size: 3rem;
   }
 }
@@ -38,7 +37,7 @@
   );
 }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 414px) {
   .banner {
     background-position: left top;
     height: 100vh;
