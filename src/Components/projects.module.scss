@@ -57,13 +57,23 @@ a {
   border-radius: 0 0 0.5rem 0.5rem;
 }
 
-// .image {
-//   width: auto;
-//   height: auto;
-// }
+@media (max-width: 375px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    min-height: 100%;
+    padding-top: 1rem;
 
-.card:hover {
-}
+    .card {
+      margin-bottom: 4rem;
+      .image {
+        width: 325px;
+      }
 
-.card:active {
+      .description {
+        font-size: 1rem;
+      }
+    }
+  }
 }

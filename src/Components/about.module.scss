@@ -11,7 +11,7 @@
 
 .about {
   margin-top: 79px;
-  height: 640px;
+  height: 500px;
   width: 580px;
   background-color: #fff;
   padding: 6rem 4rem;
@@ -23,17 +23,23 @@
   border-radius: 0.5rem;
   box-shadow: 0 5px 10px rgba(9, 25, 90, 0.05),
     0 15px 40px rgba(11, 28, 93, 0.2);
+
+  .link {
+    color: #006bff;
+    font-weight: 600;
+    cursor: pointer;
+  }
 }
 
-.technologies {
+.skills {
   margin-top: 79px;
-  height: 640px;
+  height: 500px;
   width: 580px;
   background-color: #fff;
   padding: 3rem 4rem 0 4rem;
   grid-column: 4 / span 2;
   grid-row: 2 / span 2;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 2rem;
   border-radius: 0.5rem;
@@ -47,14 +53,6 @@
 .logos {
   display: flex;
   flex-wrap: wrap;
-  // display: grid;
-  // grid-template-columns: auto;
-  // grid-template-rows: auto;
-  // grid-template-areas:
-  //   "html css"
-  //   "javascript react"
-  //   "node photoshop"
-  //   "illustrator .";
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -62,41 +60,40 @@
 }
 
 .logo {
-  width: 125px;
+  width: 90px;
   margin: 0.8rem;
 }
 
-// .html {
-//   grid-area: html;
-//   margin: auto;
-// }
+@media (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 3rem 0;
+    z-index: 1;
 
-// .css {
-//   margin: auto;
-//   grid-area: css;
-// }
+    .about {
+      width: 80%;
+      height: 100%;
+      padding: 2rem;
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
 
-// .javascript {
-//   margin: auto;
-//   grid-area: javascript;
-// }
+    .skills {
+      width: 80%;
+      height: 100%;
+      padding: 2rem;
+      font-size: 1rem;
+      line-height: 1.5rem;
 
-// .react {
-//   margin: auto;
-//   grid-area: react;
-// }
-
-// .node {
-//   margin: auto;
-//   grid-area: node;
-// }
-
-// .photoshop {
-//   margin: auto;
-//   grid-area: photoshop;
-// }
-
-// .illustrator {
-//   margin: auto;
-//   grid-area: illustrator;
-// }
+      .logos {
+        .logo {
+          width: 80px;
+        }
+      }
+    }
+  }
+}

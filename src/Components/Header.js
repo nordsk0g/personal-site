@@ -52,7 +52,14 @@ const Header = props => {
           >
             <li className={headerStyles.navItem}>Projects</li>
           </Link>
-          <Link className={headerStyles.textLink} to={`#${props.contact}`}>
+          <Link
+            className={headerStyles.textLink}
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
             <li className={headerStyles.navItem}>Contact</li>
           </Link>
         </ul>
