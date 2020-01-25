@@ -9,8 +9,9 @@ const Header = props => {
       "scroll",
       _.throttle(() => {
         const isTop = window.scrollY > 40;
+        const isMobile = window.innerWidth > 375;
         const header = document.getElementById("header");
-        if (isTop) {
+        if (isTop && isMobile) {
           header.classList.add(headerStyles.scrolled);
         } else {
           header.classList.remove(headerStyles.scrolled);

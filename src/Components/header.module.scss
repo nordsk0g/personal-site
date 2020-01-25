@@ -59,6 +59,7 @@
 
 @media (min-width: 330px) and (max-width: 375px) {
   .header {
+    position: fixed;
     background-color: #fff;
     color: #006bff;
     box-shadow: 0 2px 5px rgba(9, 25, 90, 0.05),
@@ -95,6 +96,7 @@
 
 @media (max-width: 330px) {
   .header {
+    position: fixed;
     background-color: #fff;
     color: #006bff;
     box-shadow: 0 2px 5px rgba(9, 25, 90, 0.05),
