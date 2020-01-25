@@ -38,7 +38,7 @@
   );
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .banner {
     background-position: left top;
     height: 100vh;

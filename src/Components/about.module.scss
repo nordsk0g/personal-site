@@ -65,7 +65,7 @@
 }
 
 // Mobiles
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -100,7 +100,7 @@
 }
 
 // Tablets
-@media (min-width: 376px) and (max-width: 1024px) {
+@media screen and (min-width: 376px) and (max-width: 1024px) {
   .container {
     display: flex;
     flex-direction: column;

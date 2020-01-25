@@ -57,7 +57,7 @@
   }
 }
 
-@media (min-width: 330px) and (max-width: 375px) {
+@media screen and (min-width: 330px) and (max-width: 375px) {
   .header {
     position: fixed;
     background-color: #fff;
@@ -94,7 +94,7 @@
   }
 }
 
-@media (max-width: 330px) {
+@media screen and (max-width: 330px) {
   .header {
     position: fixed;
     background-color: #fff;
