@@ -18,7 +18,7 @@ const About = () => {
         <p>
           I'm Steven, a full stack web developer from Melbourne, Australia. I
           studied computer science at Deakin University and applied science at
-          RMIT. I love creating beautiful and function web sites and
+          RMIT. I love creating beautiful and functional web sites and
           applications.
           <br />
           <br />
