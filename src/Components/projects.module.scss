@@ -77,3 +77,19 @@ a {
     }
   }
 }
+
+// Tablet
+@media (max-width: 1024px) {
+  .container {
+    height: 100%;
+    flex-direction: column;
+
+    .card {
+      margin-bottom: 79px;
+    }
+
+    .todo {
+      margin-top: 7.5rem;
+    }
+  }
+}

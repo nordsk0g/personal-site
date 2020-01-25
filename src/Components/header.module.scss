@@ -57,7 +57,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 330px) and (max-width: 375px) {
   .header {
     background-color: #fff;
     color: #006bff;
@@ -88,6 +88,24 @@
         font-size: 0.8rem;
         padding: 0.2rem 1rem;
         border-bottom: 1px dotted #c0c5ce;
+      }
+    }
+  }
+}
+
+@media (max-width: 330px) {
+  .header {
+    background-color: #fff;
+    color: #006bff;
+    box-shadow: 0 2px 5px rgba(9, 25, 90, 0.05),
+      0 5px 20px rgba(11, 28, 93, 0.2);
+    .navBar {
+      .navItem {
+        font-size: 0.8rem;
+        padding: 0.9rem;
+        &:hover {
+          border-bottom: 1px solid #006bff;
+        }
       }
     }
   }

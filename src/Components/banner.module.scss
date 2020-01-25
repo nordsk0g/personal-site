@@ -40,6 +40,15 @@
 
 @media (max-width: 375px) {
   .banner {
+    background-position: left top;
     height: 100vh;
+
+    .intro {
+      font-size: 2rem;
+
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
   }
 }

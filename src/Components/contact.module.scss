@@ -35,3 +35,13 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .email {
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 35px;
+  }
+}
